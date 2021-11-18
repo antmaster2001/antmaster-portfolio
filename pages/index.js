@@ -1,14 +1,16 @@
 import Head from 'next/head'
+import {Footer, Nav} from "../src"
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col min-h-screen py-2 container mx-auto">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col w-full flex-1 px-20 text-center min-h-screen">
+        <Nav />
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
           <a className="text-blue-600" href="https://nextjs.org">
