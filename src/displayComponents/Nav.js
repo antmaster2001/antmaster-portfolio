@@ -4,8 +4,7 @@ export default function Nav() {
   return (
     <div className="flex justify-between pt-5">
       <a href="/" className="flex">
-        <Image src="/pf.jpg" width="60" height="60" />
-        <h3 className="text-gray-50">GIJS BAKKER</h3>
+        <h3 className="text-gray-50 font-bold">GIJS BAKKER</h3>
       </a>
       <div className="flex">
         <a href="#about" className="mx-3">
