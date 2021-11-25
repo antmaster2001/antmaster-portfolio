@@ -14,7 +14,7 @@ export default function Nav() {
 						<h3 className="text-gray-50 font-bold text-lg"> About</h3>
 					</a>
 					<a href="/projects" className="mx-3">
-						<h3 className="text-gray-50 font-bold text-lg">Projecten</h3>
+						<h3 className="text-gray-50 font-bold text-lg">Projects</h3>
 					</a>
 				</div>
 				<div onClick={() => {
