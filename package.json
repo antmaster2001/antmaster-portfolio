@@ -7,7 +7,9 @@
     "export": "next export"
   },
   "dependencies": {
+    "imagemin-optipng": "^8.0.0",
     "next": "latest",
+    "next-optimized-images": "^2.6.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

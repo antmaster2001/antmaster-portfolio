@@ -1,4 +1,3 @@
-import PF from "../../public/pf.jpg"
 
 const UserPfShow = () => {
 
