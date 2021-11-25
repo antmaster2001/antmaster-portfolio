@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from "next/image"
 import { Footer, Nav, BioDisplay, MyProfile } from "../src"
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
 						{projects.map((data, index) => (
 							<a href={data.link}>
 								<div className='flex flex-col items-center mb-10 text-center hover:bg-gray-800 md:p-11 rounded' key={index}>
-									<Image src={"https://noop/" + data.img} width={600} height={400} className="rounded" />
+									<img src={data.img} width={600} height={400} className="rounded" />
 									<h3 className='text-gray-300 text-lg font-bold'>{data.name}</h3>
 									<p className='text-gray-300 mt-2'>{data.desc}</p>
 								</div>

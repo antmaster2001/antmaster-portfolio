@@ -1,4 +1,4 @@
-import Image from "next/image"
+import PF from "../../public/pf.jpg"
 
 const UserPfShow = () => {
 
@@ -10,7 +10,7 @@ const UserPfShow = () => {
 				<p className="text-white mt-2 font-bold underline">AKA: <span className="line-through ">antmaster2001</span></p>
 			</div>
 			<div>
-				<Image src="https://noop/pf.jpg" width="100" height="100" className="rounded-full" />
+				<img src="/pf.jpg" width="100" height="100" className="rounded-full" />
 			</div>
 		</div>
 	)
