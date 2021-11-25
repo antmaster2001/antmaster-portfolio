@@ -6,5 +6,16 @@ import UserPfShow from "./displayComponents/UserPfShow"
 import GoodHeader from "./displayComponents/GoodHeader"
 import HobbiesDisplay from "./displayComponents/HobbiesDisplay"
 import Technologies from "./displayComponents/Technologies"
+import ProjectPageTemplate from "./displayComponents/ProjectPageTemplate"
 
-export {Footer, Nav, BioDisplay, GoodHeader, MyProfile, UserPfShow, HobbiesDisplay, Technologies}
+export {
+    Footer, 
+    Nav,
+    BioDisplay,
+    GoodHeader, 
+    MyProfile, 
+    UserPfShow, 
+    HobbiesDisplay, 
+    Technologies, 
+    ProjectPageTemplate
+}
