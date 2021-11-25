@@ -10,13 +10,12 @@ const MyProfile = () => {
 				For me, it is not only about programming, but creating things in general. Seeing people use the things you created is a great feeling.
 			</p>
 			<GoodHeader title='Skills' />
-			<p className="text-gray-300">Fluent in
-				<Phat>Dutch</Phat>
-				and
-				<Phat>English.</Phat><br />
-				Multiple years of experience with <Phat>Windows</Phat>, <Phat>Linux</Phat> and <Phat>Mac OSX</Phat><br />
-				Small Team experience with <Phat>Git Project managing</Phat>, <Phat>Scrum</Phat>, <Phat>Agile</Phat>, <Phat>SMART</Phat>
-			</p>
+			<ul className="list-inside list-disc rounded pl-3">
+				<li className="text-gray-300">Fluent in <Phat>Dutch</Phat> and <Phat>English.</Phat></li>
+				<li className="text-gray-300">Multiple years of experience with <Phat>Windows</Phat>, <Phat>Linux</Phat> and <Phat>Mac OSX</Phat></li>
+				<li className="text-gray-300"><Phat>Drivers license &#10003;</Phat></li>
+				<li className="text-gray-300">Small Team experience with <Phat>Git Project managing, Scrum, Agile, SMART</Phat> and <Phat>Ticket/Bug handling</Phat></li>
+			</ul>
 		</div>
 	)
 }
