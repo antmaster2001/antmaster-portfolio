@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { GoodHeader } from "../index"
 
 const BioDisplay = () => {
