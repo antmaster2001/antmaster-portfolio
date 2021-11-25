@@ -49,7 +49,7 @@ export default function Nav() {
 							<p className="text-white mt-5 text-xl">About</p>
 						</a>
 						<a href="/projects">
-							<p className="text-white mt-5 text-xl">Projecten</p>
+							<p className="text-white mt-5 text-xl">Projects</p>
 						</a>
 					</div>
 				</div> :
