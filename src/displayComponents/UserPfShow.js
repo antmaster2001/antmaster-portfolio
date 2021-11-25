@@ -9,7 +9,7 @@ const UserPfShow = () => {
 				<p className="text-white mt-2 font-bold underline">AKA: <span className="line-through ">antmaster2001</span></p>
 			</div>
 			<div>
-				<img src="/pf.jpg" width="100" height="100" className="rounded-full" />
+				<img src="/Images/pf.jpg" width="100" height="100" className="rounded-full" />
 			</div>
 		</div>
 	)

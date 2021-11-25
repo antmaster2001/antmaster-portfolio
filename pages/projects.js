@@ -35,13 +35,13 @@ export default function Home() {
 const projects = [
 	{
 		name: "Bitvavo Darker",
-		img: "BV_darker.png",
+		img: "/Images/BV_darker.png",
 		link: "bitvavo_darker",
 		desc: "A dark theme chrome extension for the bitvavo website"
 	},
 	{
 		name: "Feel Good Radio App",
-		img: "FeelGoodDesign.png",
+		img: "/Images/FeelGoodDesign.png",
 		link: "feelgoodradio",
 		desc: "A IOS/ANDROID app deployed in stores"
 	}
