@@ -26,13 +26,19 @@ export default function ProjectPageTemplate(data) {
                                 {pageData.used.map((data, index) => (index !== pageData.used.length -1 ? data + ", " : data))}</p>
 							</div>
 							<div className='flex my-3'>
-								<p className='text-gray-300 bg-gray-600 rounded inline-block p-0.5 px-2'>Link(s)</p>
+								<div>
+									<p className='text-gray-300 bg-gray-600 rounded p-0.5 px-2'>Link(s)</p>
+								</div>
+								<div>
                                 {pageData.links.map(data => (
-                                    <div className='flex justify-center'>
+                                    <div className='flex mb-3'>
+										{data.logo.length > 0 ?
                                         <img src={data.logo} className="w-6 h-6 ml-3" />
+										: <div className="w-6 h-6 ml-3"></div>}
                                         <a href={data.url}><p className='text-blue-300 ml-2'>{data.display}</p></a>
                                     </div>
                                     ))}
+								</div>
 							</div>
 							<hr className='text-white my-3' />
 							<h3 className='text-white text-lg'>Description</h3>
