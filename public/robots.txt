@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.antmaster2001.nl
+
+# Sitemaps
+Sitemap: https://www.antmaster2001.nl/sitemap.xml
