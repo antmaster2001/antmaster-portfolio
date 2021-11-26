@@ -7,6 +7,7 @@ export default function Home() {
 			<Head>
 				<title>antmaster2001 - Projects</title>
 				<link rel="icon" href="/favicon.ico" />
+				<meta name="google-site-verification" content="THGgfVCa6v_axA9eFciniwfEXT-UGbCLS1dPkCOEAM8" />
 			</Head>
 
 			<Nav />

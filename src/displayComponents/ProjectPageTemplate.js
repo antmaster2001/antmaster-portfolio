@@ -8,6 +8,7 @@ export default function ProjectPageTemplate(data) {
 			<Head>
 				<title>antmaster2001 - {pageData.title}</title>
 				<link rel="icon" href="/favicon.ico" />
+				<meta name="google-site-verification" content="THGgfVCa6v_axA9eFciniwfEXT-UGbCLS1dPkCOEAM8" />
 			</Head>
 
 			<main className="min-h-screen">
