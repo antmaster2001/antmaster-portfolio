@@ -8,6 +8,9 @@ import HobbiesDisplay from "./displayComponents/HobbiesDisplay"
 import Technologies from "./displayComponents/Technologies"
 import ProjectPageTemplate from "./displayComponents/ProjectPageTemplate"
 
+
+import HeadPreset from "./dataComponents/HeadPreset"
+
 export {
     Footer, 
     Nav,
@@ -17,5 +20,6 @@ export {
     UserPfShow, 
     HobbiesDisplay, 
     Technologies, 
-    ProjectPageTemplate
+    ProjectPageTemplate,
+    HeadPreset
 }

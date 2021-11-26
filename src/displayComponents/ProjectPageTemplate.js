@@ -1,16 +1,11 @@
 import Head from 'next/head'
-import { Footer, Nav } from "../index"
+import { Footer, Nav, HeadPreset} from "../index"
 
 export default function ProjectPageTemplate(data) {
     let pageData = data.data
 	return (
 		<div className="flex flex-col min-h-screen py-2 container mx-auto">
-			<Head>
-				<title>antmaster2001 - {pageData.title}</title>
-				<link rel="icon" href="/favicon.ico" />
-				<meta name="google-site-verification" content="THGgfVCa6v_axA9eFciniwfEXT-UGbCLS1dPkCOEAM8" />
-			</Head>
-
+			<HeadPreset title={pageData.title} contentType="article"/>
 			<main className="min-h-screen">
 				<div className='flex flex-col w-full flex-1 '>
 					<Nav />

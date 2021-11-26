@@ -1,14 +1,10 @@
 import Head from 'next/head'
-import { Footer, Nav, BioDisplay, MyProfile } from "../src"
+import { Footer, Nav, BioDisplay, MyProfile, HeadPreset} from "../src"
 
 export default function Home() {
 	return (
 		<div className="flex flex-col min-h-screen py-2 container mx-auto">
-			<Head>
-				<title>antmaster2001 - Projects</title>
-				<link rel="icon" href="/favicon.ico" />
-				<meta name="google-site-verification" content="THGgfVCa6v_axA9eFciniwfEXT-UGbCLS1dPkCOEAM8" />
-			</Head>
+			<HeadPreset title="Projects" contentType="website"/>
 
 			<Nav />
 			<main className="flex flex-col w-full flex-1 px-20 min-h-screen">
