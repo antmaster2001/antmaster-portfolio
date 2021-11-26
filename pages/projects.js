@@ -11,7 +11,7 @@ export default function Home() {
 
 			<Nav />
 			<main className="flex flex-col w-full flex-1 px-20 min-h-screen">
-				<div className='flex md:justify-center w-100 mt-10'><div className='md:w-6/12 mb-4'><h1 className='text-lg text-white'>Projects</h1></div></div>
+				<div className='flex md:justify-center w-100 mt-10'><div className='md:w-6/12 mb-4'><h1 className='text-lg text-white font-bold'>Projects</h1></div></div>
 				<section className='flex justify-center w-100'>
 					<article className='grid md:grid-cols-2 md:w-6/12 w-100'>
 						{projects.map((data, index) => (
