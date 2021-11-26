@@ -13,6 +13,7 @@ export default function ProjectPageTemplate(data) {
 			<meta property="og:image" content="https://www.antmaster2001.nl/Images/pf.jpg" />
 			<meta property="og:type" content={data.contentType} />
 			<meta property="og:locale" content="en_US" />
+			<meta name="theme-color" content="#111111"/>
 			<meta name="google-site-verification" content="THGgfVCa6v_axA9eFciniwfEXT-UGbCLS1dPkCOEAM8" />
 		</Head>
 	)
