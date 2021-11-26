@@ -17,6 +17,11 @@ const data = {
 			url: "https://github.com/antmaster2001/Bitvavo-Darker",
 			display: "antmaster2001/Bitvavo-Darker",
 			logo: "/Images/GitHub32px.png"
+		},
+		{
+			url: "https://chrome.google.com/webstore/detail/bitvavo-darker/onmgeopeamjlblpjlkleilnbclfdnkol",
+			display: "Install link",
+			logo: "/Images/Chrome_Store_icon.png"
 		}
 	],
 	desc: "Bitvavo Darker is a Chrome extension that turns the whole UI into a darktheme.",
