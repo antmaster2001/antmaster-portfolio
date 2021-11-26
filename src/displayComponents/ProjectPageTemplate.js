@@ -35,7 +35,7 @@ export default function ProjectPageTemplate(data) {
 										{data.logo.length > 0 ?
                                         <img src={data.logo} className="w-6 h-6 ml-3" />
 										: <div className="w-6 h-6 ml-3"></div>}
-                                        <a href={data.url}><p className='text-blue-300 ml-2'>{data.display}</p></a>
+                                        <a href={data.url}><p className='text-blue-300 hover:text-blue-500 ml-2'>{data.display}</p></a>
                                     </div>
                                     ))}
 								</div>
