@@ -4,7 +4,7 @@ import { Footer, Nav, BioDisplay, MyProfile, UserPfShow, HobbiesDisplay, Technol
 export default function Home() {
 	return (
 		<div className="flex flex-col min-h-screen py-2 container mx-auto">
-			<HeadPreset title="Home" contentType="website"/>
+			<HeadPreset title="Home" contentType="website" ogImg="pf.jpg"/>
 			<Nav />
 			<main className="flex flex-col w-full  min-h-screen">
 				<section className='flex justify-center w-100'>

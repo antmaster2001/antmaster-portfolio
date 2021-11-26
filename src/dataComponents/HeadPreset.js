@@ -10,7 +10,7 @@ export default function ProjectPageTemplate(data) {
 			<meta property="og:title" content={"antmaster2001 - " + data.title} />
 			<meta property="og:url" content={"https://www.antmaster2001.nl/" + router.pathname} />
 			<meta property="og:description" content="The antmaster2001 portfolio and CV website. A display of projects and skills!" />
-			<meta property="og:image" content="https://www.antmaster2001.nl/Images/pf.jpg" />
+			<meta property="og:image" content={"https://www.antmaster2001.nl/Images/" + data.ogImg} />
 			<meta property="og:type" content={data.contentType} />
 			<meta property="og:locale" content="en_US" />
 			<meta name="theme-color" content="#111111"/>

@@ -9,7 +9,7 @@ export default function Home() {
 
 const data = {
 	title: "Feel Good Radio App",
-	headImage: "/Images/BG_Darker_Big.jpg",
+	headImage: "/Images/FeelGoodDesign.png",
 	quote: "The cross platform IOS and Android phone app for feel good radio",
 	used: ["React Native", "Expo", "TypeScript"],
 	links: [
@@ -29,9 +29,9 @@ const data = {
 			logo: ""
 		},
 	],
-	desc: "Bitvavo Darker is a Chrome extension that turns the whole UI into a darktheme.",
+	desc: "The FeelGoodRadio app is a mobile application launched on IOS and Android.",
 	otherImgs: [
-		"https://github.com/antmaster2001/Bitvavo-Darker/raw/main/img/Screenshot_102.png",
-		"https://lh3.googleusercontent.com/db_dFUcIHXTp4ISoY9dF-qhpCVPyW69ZLP3cuq5Tb_FgZT4TXMcKDfzE2_Ye3eSuxMXNEizWNI-WNNM5dUWqmd4wNA=w640-h400-e365-rj-sc0x00ffffff"
+		"/Images/Settings_FG.png",
+		"/Images/Playlist_FG.png"
 	]
 }
