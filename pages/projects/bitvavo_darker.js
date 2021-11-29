@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Footer, Nav, ProjectPageTemplate} from "../src"
+import { Footer, Nav, ProjectPageTemplate} from "../../src"
 
 export default function Bitvavo_darker() {
 	return (

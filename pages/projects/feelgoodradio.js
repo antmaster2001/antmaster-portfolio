@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {Footer, Nav, BioDisplay, MyProfile, ProjectPageTemplate} from "../src"
+import {Footer, Nav, BioDisplay, MyProfile, ProjectPageTemplate} from "../../src"
 
 export default function Home() {
 	return (

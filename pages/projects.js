@@ -33,13 +33,13 @@ const projects = [
 	{
 		name: "Bitvavo Darker",
 		img: "/Images/BV_darker.png",
-		link: "bitvavo_darker",
+		link: "projects/bitvavo_darker",
 		desc: "A dark theme chrome extension for the bitvavo website"
 	},
 	{
 		name: "Feel Good Radio App",
 		img: "/Images/FeelGoodDesign.png",
-		link: "feelgoodradio",
+		link: "projects/feelgoodradio",
 		desc: "An IOS/ANDROID app SOON deployed in stores"
 	}
 ]
