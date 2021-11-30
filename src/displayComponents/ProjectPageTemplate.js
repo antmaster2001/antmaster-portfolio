@@ -5,7 +5,7 @@ export default function ProjectPageTemplate(data) {
     let pageData = data.data
 	return (
 		<div className="flex flex-col min-h-screen py-2 container mx-auto">
-			<HeadPreset title={pageData.title} contentType="article" ogImg={pageData.headImage.substring(1)}/>
+			<HeadPreset title={pageData.title} contentType="article" ogImg={pageData.ogImage}/>
 			<main className="min-h-screen">
 				<div className='flex flex-col w-full flex-1 '>
 					<Nav />

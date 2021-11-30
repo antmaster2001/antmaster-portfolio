@@ -10,6 +10,7 @@ export default function Home() {
 const data = {
 	title: "Feel Good Radio App",
 	headImage: "/Images/FeelGoodDesign.png",
+	ogImage: "FeelGoodDesign.png",
 	quote: "The cross platform IOS and Android phone app for feel good radio",
 	used: ["React Native", "Expo", "TypeScript"],
 	links: [

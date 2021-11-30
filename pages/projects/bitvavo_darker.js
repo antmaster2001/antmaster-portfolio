@@ -10,6 +10,7 @@ export default function Bitvavo_darker() {
 const data = {
 	title: "Bitvavo Darker",
 	headImage: "/Images/BG_Darker_Big.jpg",
+	ogImage: "BG_Darker_Big.jpg",
 	quote: "A chrome darktheme extension",
 	used: ["Javascript", "CSS"],
 	links: [
