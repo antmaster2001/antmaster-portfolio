@@ -8,6 +8,7 @@ const Technologies = () => {
 			<ul className="list-inside list-disc">
 				<li className="text-white">React</li>
 				<li className="text-white">React Native</li>
+				<li className="text-white">Electron</li>
 				<li className="text-white">Node.JS</li>
 				<li className="text-white">Express.JS</li>
 				<li className="text-white">GraphQL</li>
@@ -26,6 +27,8 @@ const Technologies = () => {
 			<p className="text-gray-300 mb-5 mt-8">Other:</p>
 			<ul className="list-inside list-disc">
 				<li className="text-white">VIM</li>
+				<li className="text-white">Tailwind CSS</li>
+				<li className="text-white">Bootstrap</li>
 				<li className="text-white">HTML</li>
 				<li className="text-white">JSON</li>
 				<li className="text-white">PHP</li>
