@@ -47,7 +47,7 @@ const BioData = [
 		sub: [
 			{
 				year: 2020,
-				text: "Internship at a local tech store. I redesigned logo's and created a mexican food ordering website with vanilla PHP."
+				text: "Internship at a local tech store. I redesigned logos and created a mexican food ordering website with vanilla PHP."
 			},
 			{
 				year: 2021,
