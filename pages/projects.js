@@ -41,5 +41,11 @@ const projects = [
 		img: "/Images/FeelGoodDesign.png",
 		link: "projects/feelgoodradio",
 		desc: "An IOS/ANDROID app SOON deployed in stores"
+	},
+	{
+		name: "Portfolio Website",
+		img: "/Images/portfolio_main.png",
+		link: "projects/portfolio",
+		desc: "The portfolio website you are currently on :)"
 	}
 ]
