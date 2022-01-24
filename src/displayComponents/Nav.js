@@ -21,7 +21,7 @@ export default function Nav() {
 					sethamMenu((e) => !e);
 					document.getElementById("__next").style = "overflow-y: hidden!important; max-height: 100vh!important"
 				}} className="md:hidden block">
-					<svg class="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" aria-hidden="true">
+					<svg className="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" aria-hidden="true">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 					</svg>
 				</div>
@@ -34,7 +34,7 @@ export default function Nav() {
 						document.getElementById("__next").style = "overflow-y: scroll!important; max-height: auto!important"
 					}}>
 						<div></div>
-						<svg class="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" aria-hidden="true">
+						<svg className="block h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
 						</svg>
 					</div>
