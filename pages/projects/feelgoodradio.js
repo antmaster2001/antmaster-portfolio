@@ -15,13 +15,13 @@ const data = {
 	used: ["React Native", "Expo", "TypeScript"],
 	links: [
 		{
-			url: "",
-			display: "Soon In store",
+			url: "https://apps.apple.com/nl/app/feel-good-radio-nieuws-radio/id1586472720?l=en",
+			display: "Apple Appstore",
 			logo: "/Images/app-store-logo.png"
 		},
 		{
-			url: "",
-			display: "Soon In store",
+			url: "https://play.google.com/store/apps/details?id=com.feelgoodradio.app",
+			display: "Google Playstore ",
 			logo: "/Images/google-play-logo.png"
 		},
 		{
