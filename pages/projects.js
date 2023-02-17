@@ -40,7 +40,7 @@ const projects = [
 		name: "Feel Good Radio App",
 		img: "/Images/FeelGoodDesign.png",
 		link: "projects/feelgoodradio",
-		desc: "An IOS/ANDROID app SOON deployed in stores"
+		desc: "An IOS/ANDROID app deployed in stores"
 	},
 	{
 		name: "Portfolio Website",

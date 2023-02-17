@@ -28,13 +28,17 @@ const Technologies = () => {
 
 const Tech = {
 	Main: [
+		"NestJS",
+		"Kafka",
+		"Express.JS",
+		"Node.JS",
+		"MySQL",
+		"Blockchain Knowledge",
+		"Blockchain Payment Integration/Implementation",
 		"React",
 		"React Native",
 		"Electron",
-		"Node.JS",
-		"Express.JS",
 		"GraphQL",
-		"MySQL",
 		"MongoDB",
 		"Web Scraping",
 		"Web Extension Programming",
@@ -52,7 +56,6 @@ const Tech = {
 		"HTML",
 		"JSON",
 		"PHP",
-		"Logo Design",
 		"Mobile Design",
 		"Web Design",
 	]

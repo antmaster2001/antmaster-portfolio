@@ -54,7 +54,11 @@ const BioData = [
 				text: "School internship, creating an app for a local news/radiostation. All programmed in React Native."
 			}
 		]
-	}
+	},
+	{
+		year: "2022 - Present",
+		text: "Bitvavo, Amsterdam - Fulltime Software Engineer"
+	},
 ]
 
 export default BioDisplay;
